@@ -9,88 +9,73 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__top">
-            <div class="container">
-               <div class="header__top-inner">
-                    <div class="logo">
-                        <a class="logo__link" href="#">
-                            <img class="logo__img" src="img/svg/Tesla-Wordmark-Red.png" alt="">
-                        </a>
-                    </div>
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__list-item">
-                                <a class="menu__link menu__link--active" href="#">Model S</a>
-                            </li>
-                            <li class="menu__list-item">
-                                <a class="menu__link" href="#">Model X</a>
-                            </li>
-                            <li class="menu__list-item">
-                                <a class="menu__link" href="#">Model 3</a>
-                            </li>
-                            <li class="menu__list-item">
-                                <a class="menu__link" href="#">Roadster</a>
-                            </li>
-                            <li class="menu__list-item">
-                                <a class="menu__link" href="#">Energy</a>
-                            </li>
-                            <li class="menu__list-item">
-                                <a class="menu__link" href="#">Магазин</a>
-                            </li>
-                            <li class="menu__list-item">
-                                <a class="menu__link" href="#">Войти</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="header__menu-burger">
-
-                    </div>
-               </div>
+        <a class="header__logo" href="">
+            <img class="header__logo-img" src="img/svg/Tesla-Wordmark-Red.svg" alt="">
+        </a>
+        <nav class="menu">
+            <a class="menu__link" href="#">Model S</a>
+            <a class="menu__link" href="#">Model X</a>
+            <a class="menu__link" href="#">Model 3</a>
+            <a class="menu__link" href="#">Roadster</a>
+            <a class="menu__link" href="#">Energy</a>
+        </nav>
+        <div class="header__right">
+            <div class="header__menu">
+                <a class="header__menu-link" href="#">Магазин</a>
+                <a class="header__menu-link" href="#">Войти</a>
             </div>
+            <button class="header__burger">
+                <img src="img/svg/Group.svg" alt="">
+            </button>
         </div>
     </header>
-    <div class="header__content">
-        <div class="container">
-            <div class="header__content-inner">
-                <h1 class="header__content-title">Model S</h1>
-                <p class="header__content-description">Добро пожаловать в будущее!</p>
-                <img class="header__content-img" src="img/tesla-png-.png" alt="">
+    <section class="top">
+        <h1 class="top__title">Model S</h1>
+        <p class="top__subtitle">Добро пожаловать в будущее!</p>
+        <img class="top__img" src="img/tesla-png-tesla-png-hd-1636.jpg" alt="">
+        <div class="top__wrapper">
+            <div class="top__wrapper-charset">
+                <div class="charset">
+                    <div class="charset__item">
+                        <img class="charset__speed" src="img/icon/group.svg" alt="">
+                    </div>
+                    <div class="charset__item">
+                        <div class="charset__first">
+                            <span class="span charset__first-big">2,7 </span>
+                            <span class="span charset__first-small">сек</span>
+                        </div>
+                        <div class="charset__second">
+                            0-100 км/час
+                        </div>
+                    </div>
+                </div>
+                <div class="charset">
+                    <div class="charset__item">
+                        <img class="charset__road" src="img/icon/Road icon.svg" alt="">
+                    </div>
+                    <div class="charset__item">
+                        <div class="charset__first">
+                            <div class="span charset__first-big">632</div>
+                            <div class="span charset__first-small">км</div>
+                        </div>
+                        <div class="charset__second">
+                            запас хода
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="header__content-row">
-                <div class="header__content-column">
-                    <div class="contant__haracteristics">
-                        <div class="content__haracteristics-icon">
-                            <img src="img/icon/Speed.png" alt="">
-                        </div>
-                        <div class="content__haracteristics-title">2,7</div>
-                        <div class="content__haracteristics-sec">сек</div>
-                        <div class="content__haracteristics-text">0-100 км/час</div>
-                    </div>
-                </div>
-                <div class="header__content-column">
-                    <div class="contant__haracteristics">
-                        <div class="content__haracteristics-icon">
-                            <img src="img/icon/Road icon.png" alt="">
-                        </div>
-                        <div class="content__haracteristics-title">632</div>
-                        <div class="content__haracteristics-km">км</div>
-                        <div class="content__haracteristics-text">запас хода</div>
-                    </div>
-                </div>
-                <div class="header__content-column">
-                    <div class="contant__haracteristics">
-                        <div class="content__haracteristics-icon">
-                            <img src="img/icon/Test drive 1.png" alt="">
-                        </div>
-                        <button class="header__content-button">Заказать</button>
-                    </div>
-                    <div class="header__content-vector">
-                        <img class="content-vector__imeg" src="img/icon/Vector.png" alt="">
-                    </div>
-                </div>
+            <div class="top__wrapper-item">
+                <button class="button button__outline">
+                    <img class="button__outline-img" src="img/icon/steering-wheel.svg" alt="">
+                    <span class="button__text">Тест драйв</span>
+                </button>
+                <button class="button button__red">
+                    <span class="button__text">Заказать</span>
+                </button>
             </div>
         </div>
-    </div>
+        <a class="top__vector-link" href="#"><img class="top__vector-img" src="img/svg/vector.svg" alt=""></a>
+    </section>
     <section class="section">
         <div class="section__inner">
             <div class="section__title">
