@@ -36,3 +36,1130 @@
          url('../fonts/montserrat-v14-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
          url('../fonts/montserrat-v14-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
+
+
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: #000000; 
+}
+
+
+
+.header {
+    max-width: 100%;
+    height: auto;
+    padding: 24px 68px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+.header__logo {
+    display: inline-flex;
+    background-color: #fff;
+    padding-left: 33px;
+}
+.header__logo-img {
+    background-color: #fff;
+}
+.menu {
+    margin-left: 69px;
+}
+.menu__link {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 6px;
+    margin-right: 40px;
+    color: #000000;
+    border-bottom: 1px solid rgba(229, 25, 55, 0);
+}
+.menu__link:nth-child(1) {
+    margin-left: 100px;
+    margin-right: 60px;
+    padding-right: 0;
+    padding-left: 0;
+}
+.menu__link:nth-child(2) {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 18px;
+    margin-left: 0;
+}
+.menu__link:nth-child(3) {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 20px;
+    margin-left: 4px;
+}
+.menu__link:nth-child(4) {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.menu__link:nth-child(5) {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 98px;
+    margin-left: 12px;
+}
+
+
+.menu__link:hover, .menu__link:focus, .menu__link:active {
+    color: #e51937;
+    border-bottom: 2px solid #e51937;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    margin-right: 26px;
+}
+.header__menu {
+    margin-left: 30px;
+    padding-right: 0;
+    padding-left: 0;
+}
+.header__menu-link {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    margin-right: 30px;
+    color: #000000;
+    padding-left: 0;
+    margin-right: 20px;
+    margin-left: 8px;
+}
+.header__menu-link:nth-child(2) {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 25px;
+}
+.header__menu-link:hover, .header__menu-link:focus, .header__menu-link:active {
+    width: 60px;
+    height: 2px;
+    color: #e51937;
+    border-bottom: 2px solid #e51937;
+}
+.header__burger {
+    padding-right: 5px;
+}
+.top {
+    text-align: center;
+    background: url(../img/tesla-fon.png) 0px 0px no-repeat;
+    background-position: 50% 0;
+}
+.top__title {
+    margin-top: 36px;
+    font-weight: 600;
+    font-size: 90px;
+    padding: 0;
+}
+.top__subtitle {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.top__img {
+    width: 968px;
+    height: 450px;
+    margin-top: 16px;
+    margin-right: 69px; 
+}
+.top__imeg {
+    
+}
+.top__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+   
+}
+.top__wrapper-charset{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+.top__wrapper-item {
+    display: flex;
+    align-items: center;
+    margin-right: 77px;
+}
+.charset {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.charset__item {
+    padding-right: 0px;
+    padding-left: 5px;
+    margin-bottom: 17px;
+
+}
+.charset__speed {
+    width: 46px;
+    height: 34.13px;
+    margin-left: 90px;
+}
+.charset__road {
+    margin-left: 27px;
+    margin-top: 10px;
+}
+.charset__first {
+    display: flex;
+    align-items: baseline;
+    text-align-last: left;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    color: #000000;
+    margin-right: 0px 5px 2px 0px;
+}
+.span {
+}
+.charset__first-big {
+    padding-right: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-left: 5px;
+    margin-top: 0;
+    margin-right: 0;
+}
+.charset__first-small {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding-right: 50px;
+    padding-bottom: 0;
+}
+.charset__second {
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+
+
+.button__outline {
+    border: none;
+    margin-bottom: 16px;
+    padding-right: 28px;
+}
+.button__outline-img{
+    padding-right: 0;
+    margin-right: 2px;
+}
+.button__outline:hover {
+    color: #e51937;
+}
+.button__text {
+    text-align: center;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 16px;
+    margin-right: 5px;
+}
+.button {
+    display: flex;
+    align-items: center;
+    padding: 10px 28px;
+    border: 2px solid #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    background-color: #fff;
+}
+.button__red {
+    border: 2px solid #e51937;
+    color: #e51937;
+    padding-left: 41px;
+    padding-right: 41px;
+    margin-bottom: 16px;
+    margin-right: 10px;
+}
+
+.button img {
+    margin-right: 8px;
+}
+
+.top__vector-link {
+}
+
+
+
+
+/* MIDDLE
+===================================================== */
+
+.middle {
+    margin-top: 43px;
+}
+.middle__inner {
+    background: url(../img/svg/tesla-model-s-2.png) no-repeat;
+    background-position: 0 60px;
+}
+.middle__fon {
+    display: flex;
+    justify-content: space-between;
+}
+.middle__title {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 85px;
+    color: #E51937;
+    margin-left: 80px;
+    margin-top: 62px;
+}
+.middle__img {
+}
+.middle__info {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: #E51937;
+    width: 440px;
+    height: 900px;
+}
+.middle__info-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    margin-top: 50px;
+    margin-left: 52px;
+}
+.middle__info-text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    margin: 11px 70px 50px 52px;
+}
+.middle__row {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 48px;
+    margin-right: 150px;
+}
+.middle__column {
+    display: flex;
+    align-items: center;
+}
+.middle__item {
+    
+}
+.middle__item-wifi {
+  
+}
+
+.middle__screen {
+    padding-top: 0px;
+    padding-left: 4px;
+    padding-bottom: 15px;
+}
+.middle__wifi {
+    padding-top: 0;
+    padding-bottom: 0px;
+}
+.middle__bag {
+    padding-top: 0px;
+    padding-left: 4px;
+    padding-bottom: 8px;
+}
+.middle__first {
+    padding-top: 8px;
+    padding-left: 0px;
+}
+.middle__first-big {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+    padding-left: 20px;
+    padding-bottom: 0;
+}
+.middle__first-small {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 10px;
+}
+.middle__first-title{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    padding-left: 20px;
+    padding-bottom: 0;
+    padding-top: 8px;
+}
+
+.middle__first-text{
+    font-size: 12px;
+    line-height: 15px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.middle__text {
+    font-size: 12px;
+    line-height: 15px;
+    padding-bottom: 30px;
+    padding-left: 18px;
+}
+.middle__column {
+}
+.middle__first-title {
+}
+.middle__first-textl {
+}
+
+
+/* BUTTON
+===================================================================== */
+.button__btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 2px solid #E51937;;
+    color: #FFFFFF;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-bottom: 0;
+    margin-right: 10px;
+    background-color: #E51937;
+    margin-left: 13px;
+    margin-top: 148px;
+}
+.button__btn-img {
+}
+.button__btn-word {
+    font-family: Montserrat;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    padding-right: 0;
+    margin-right: 0;
+}
+.button__btn-text {
+    padding: 10px 28px;
+    border: 2px solid #ffffff;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #E51937;
+    font-family: Montserrat;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 13px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 30px;
+}
+
+
+/* BOTTOM
+================================================================================ */
+.bottom {
+    background: url(../img/model-s-bottom.png) no-repeat;
+    background-position: 647px 140px;
+}
+.bottom__inner {
+    background: url(../img/Car\ frame\ group.png) no-repeat;
+    background-position: 345px 169px;
+}
+.bottom__info {
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    height: 900px;
+    color: #ffffff;
+    background: #E51937;
+}
+
+.stars__text {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+}
+
+
+.bottom__description {
+    padding-left: 56px;
+    padding-top: 49px;
+    margin-right: 60px;
+}
+.bottom__description-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+}
+.bottom__description-text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    padding-top: 13px;
+}
+.bottom__content {
+
+}
+.bottom__appraisal-title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    padding-left: 56px;
+    padding-top: 55px;
+}
+.bottom__content {
+    padding-top: 16px;
+    padding-left: 56px;
+}
+.bottom__appraisal-star {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+.bottom__appraisal-star:nth-child(3) {
+    padding-top: 14px;
+}
+.bottom__appraisal-star:nth-child(4) {
+    padding-top: 15px;
+}
+.bottom__appraisal-star:nth-child(5) {
+    padding-top: 15px;
+}
+
+.stars__text {
+   
+}
+.stars__item {
+}
+
+
+.stars {
+   padding-right: 88px;
+}
+.stars__word {
+    padding-right: 30px;
+    font-size: 13px;
+}
+
+.bottom__shield {
+    display: flex;
+    margin-left: 65px;
+    margin-top: 102px;
+}
+.bottom__item {
+    padding-top: 10px;
+}
+.bottom__img {
+}
+.bottom__first {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom__number {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+    padding-left: 23px;
+    padding-right: 15px;
+}
+.bottom__first-title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 50px;
+    padding-top: 5px;
+}
+.bottom__first-text {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 10px;
+    padding-left: 25px;
+}
+
+
+/* кнопка */
+.button__btn {
+    margin-top: 68px;
+    margin-left: 0;
+    margin-right: 13px;
+}
+.button__btn-img {
+    padding-right: 5px;
+}
+.button__btn-word {
+}
+.button__btn-text {
+    margin-right: 5px;
+}
+
+
+
+/* MEDIA
+============================================================================== */
+
+@media (max-width: 1200px) {
+    .header__menu-link {
+        display: none;
+    }
+    .menu__link {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__menu-link {
+        display: none;
+    }
+    .menu__link {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+       padding-top: 25px;
+       padding-right: 0;
+       padding-left: 0;
+    }
+    .header__logo {
+        padding-left: 15px;
+    }
+    .header__burger-img {
+        width: 35px;
+        height: 22px;
+    }
+    .top {
+        padding: 90px 0px 30px;
+        padding-top: 26px;
+        background: url(../img/tesla-fon.png) ;
+        background-position: 0 160px;
+        background-repeat: no-repeat;
+        background-size: 822px 271px;
+    }
+    .top__title{
+        margin-left: 0px;
+        margin-top: 32px;
+    }
+    .top__subtitle{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .top__img {
+        width: 672px;
+        height: 327px;
+        margin-right: 0px;
+        margin-top: 80px;
+        margin-left: 0px;
+    }
+    .top__wrapper {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-top: 37px;
+    }
+    .top__wrapper-charset {
+        margin-left: 0;
+        background: url(../img/svg/road-ipad.svg) no-repeat;
+        background-position: 420px 0;
+    }
+    
+    .top__wrapper-item {
+        margin: 30px 0px;
+        display: flex;
+        justify-content: center;
+        margin-top: 45px;
+        margin-bottom: 60px;
+        margin-left: 15px;
+    }
+    .charset {
+        margin: 0px 30px;
+        justify-content: center;
+    }
+    .charset__speed {
+        width: 65.92px;
+        height: 50.16px;
+        padding-left: 0;
+        margin-left: 92px;
+    }
+    .charset__road {
+        display: none;
+        width: 37.83px;
+        height: 60.72px;
+        margin-left: 20px;
+    }
+    .charset__first-big {
+        font-weight: 600;
+        font-size: 50px;
+        padding-left: 15px;
+        padding-bottom: 5px;
+    }
+    .charset__first-small {
+        margin-right: 62px;
+        padding-right: 0px;
+        padding-left: 7px;
+        padding-bottom: 10px;
+    }
+    .button {
+        margin: 0;
+        justify-content: center;
+    }
+    .button__outline {
+        color: #e51937;
+        padding-bottom: 10px;
+        padding-top: 16px;
+        padding-right: 40px;
+        padding-left: 45px;
+        background: url(../img/svg/steering-ipad.svg) no-repeat;
+        background-position: 0 6px;
+    }
+    .button__outline-img {
+        display: none;
+        margin-right: 15px;
+        margin-left: 0;
+    }
+    .button__text {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .button__red {
+        background-color: #e51937;
+        color: #fff;
+        margin: 0px 30px;
+        justify-content: center;
+        margin-left: 0px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 22px;
+        margin-bottom: 0;
+    }
+    .top__vector-link {
+    }
+
+/* MIDDLE-MEDIA ( 7 6 8 )
+===================================================================== */
+
+    .middle {
+        margin-top: 30px;
+    }
+    .middle__inner {
+        align-content: space-between;
+        background: url(../img/tesla-fon-ipad-2.png) no-repeat;
+        
+    }
+    .middle__fon {
+        display: flex;
+        display: inline-block;
+
+    }
+    .middle__title {
+        margin-top: 11px;
+        margin-left: 434px;
+    }
+    .middle__info {
+        /* display: flex;
+        flex-direction: row; */
+        margin-top: 400px;
+        width: 768px;
+        height: 490px;
+        margin-top: 405px;
+
+    }
+    .middle__info-row {
+        display: flex;
+        flex-direction: row;
+    }
+    .middle__contant {
+        width: 400px;
+        height: 400px;
+    }
+    .middle__info-title {
+        margin-top: 57px;
+        margin-left: 32px;
+    }
+    .middle__info-text {
+        width: 320px;
+        margin-right: 0;
+        margin-top: 22px;
+        margin-left: 32px;
+    }
+    .middle__row {
+        margin-right: 70px;
+        margin-top: 33px;
+        margin-left: 50px;
+    }
+    .middle__column {
+    }
+    .middle__item {
+    }
+    .middle__screen {
+        padding-bottom: 0;
+        padding-top: 8px;
+    }
+    .middle__first {
+    }
+    .span {
+    }
+    .middle__first-big {
+    }
+    .middle__first-small {
+    }
+    .middle__text {
+        padding-bottom: 25px;
+    }
+    .middle__item-wifi {
+    }
+    .middle__wifi {
+    }
+    .middle__first-title {
+    }
+    .middle__first-text {
+    }
+    .middle__bag {
+    }
+
+
+
+    .button__btn {
+        display: flex;
+        align-items: center;
+        margin-left: 150px;
+        margin-right: 0;
+        padding-left: 0;
+        margin-top: 18px;
+    }
+    .button__btn-img {
+        width: 32px;
+        height: 32px;
+    }
+    .button__btn-word {
+        margin-left: 15px;
+        margin-right: 23px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .button__btn-text {
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 20px;
+        padding-left: 63px;
+        padding-right: 63px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+/* MEDIA-BOTTOM (7 6 8)
+===================================================================================== */
+    .bottom {
+        background: url(../img/model-s-fon-ipad.png) no-repeat;
+        background-position: 95px 68px;
+    }
+    .bottom__inner {
+        background: url(../img/car-ipad.png) no-repeat;
+        background-position: 0 75px;
+    }
+    .bottom__inner-img {
+        padding-top: 75px;
+    }
+    .bottom__info {
+        height: 490px;
+        width: 768px;
+        margin-top: 462px;
+    }
+    .bottom__content-stars {
+        display: flex;
+        height: 365px;
+    }
+    .bottom__description {
+        margin-right: 0;
+        padding-left: 35px;
+        padding-top: 62px;
+        width: 362px;
+        height: 355px;
+    }
+    .bottom__description-title {
+    }
+    .bottom__description-text {
+    }
+    .bottom__stars {
+        width: 420px;
+        height: 400px;
+        margin-left: 0;
+        margin-top: 5px;
+        padding-left: 67px;
+    }
+    .bottom__appraisal-title {
+        padding-left: 0;
+    }
+    .bottom__content {
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .bottom__appraisal-star {
+    }
+    .stars__text {
+    }
+    .stars {
+        padding-right: 55px;
+    }
+    .stars__item {
+    }
+    .stars__word {
+    }
+    .bottom__shield {
+        display: none;
+    }
+    .bottom__item {
+    }
+    .bottom__img {
+    }
+    .bottom__items {
+    }
+    .bottom__first {
+    }
+    .bottom__number {
+    }
+    .bottom__first-title {
+    }
+    .bottom__first-text {
+    }
+    .button__btn {
+        margin-top: 0;
+    }
+    .button__btn-img {
+    }
+    .button__btn-word {
+    }
+    .button__btn-text {
+    }
+}
+
+
+
+@media (max-width: 375px) {
+    .header {
+        margin-top: 65px;
+        padding-top: 8px;
+        padding-bottom: 27px;
+    }
+    .header__logo {
+        padding-left: 0;
+    }
+    .header__logo-img {
+        padding: 0;
+        width: 138px;
+        height: 42px;
+        }
+    .header__menu{ 
+        padding: 24px 30px;
+    }
+    .header__right {
+        margin-right: 16px;
+    }
+    .header__burger-img {
+        width: 24px;
+        height: 15px;
+    }
+    .top {
+        padding: 30px 0px 20px;
+        margin-right: 0px;
+        padding-top: 0;
+        padding-bottom: 0;
+        background: url(../img/tesla-fon.png) ;
+        background-position: 0 80px;
+        background-repeat: no-repeat;
+        background-size: 400px 140px;
+    }
+    .top__title {
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 61px;
+        margin-top: 0;
+    }
+    .top__subtitle {
+        font-weight: 500;
+        font-size: 10px;
+    }
+    .top__img {
+        width: 357px;
+        height: 166px;
+        margin-top: 40px;
+
+    }
+    .top__wrapper { 
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+    .top__wrapper-charset{
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        background: url(../img/svg/road-mobile.svg) no-repeat;
+        background-position: 210px 5px;
+    }
+    .top__wrapper-item {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        margin-right: 25px;
+        margin-left: 24px;
+    }
+    .charset {
+        margin: 0px 10px;
+
+    }
+    .charset__item {
+        margin-right: 0px;
+        margin-left: 20;
+    }
+    .charset__first {
+        margin: 0px 2px 0px 0px;
+    }
+    .charset__speed {
+        width: 38px;
+        height: 28px;
+        margin-left: 26px;
+        margin-bottom: 12px;
+        margin-right: 10px;
+    }
+    .charset__road {
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .charset__first-big {
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 33px;
+        padding-left: 0;
+    }
+    .charset__first-small {
+        font-size: 15px;
+        padding-bottom: 0;
+        padding-right: 21px;
+        margin-right: 27px;
+    }
+    .charset__second{
+        font-size: 10px;
+    }
+    .button__outline {
+        color: #e51937;
+        padding-right: 25px;
+        padding-left: 27px;
+        padding-top: 13px;
+        background-position: 0px 10px;
+        background-size: 22px 22px;
+    }
+    .button__outline-img {
+        margin-left: 5px;
+    }
+    .button__red {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .button__text {
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0;
+        font-size: 13px;
+    }
+    .top__vector-link {
+    }
+
+
+    /* MIDDLE
+    =============================================== */
+    .middle__inner {
+        background: url(../img/tesla-mobil2.png) no-repeat;
+    }
+    .middle {
+        margin-top: 0;
+    }
+    .middle__info {
+        margin-top: 228px;
+        height: 300px;
+    }
+    .middle__info-row {
+        /* width: 400px;
+        height: 304px; */
+    }
+    .middle__contant {
+        width: 400px;
+        height: 304px;
+    }
+    .middle__info-title {
+        margin-top: 21px;
+        margin-left: 25px;
+    }
+    .middle__info-text {
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    .middle__row {
+        display: none;
+    }
+    .button__btn {
+        display: none;
+    }
+    /* BOTTOM-MOBILE
+    =================================================================== */
+    
+    .bottom {
+        background: url(../img/model-s-fon-ipad.png) no-repeat;
+        background-size: 400px 80px;
+        background-position: 0 50px;
+    }
+    .bottom__inner {
+        background: url(../img/car-mobile.png) no-repeat;
+        background-position: 0 60px;
+    }
+    
+    .bottom__info {
+        margin-top: 223px;
+        width: 375px;
+        height: 300px;
+    }
+    .bottom__description {
+        padding-top: 20px;
+        padding-left: 30px;
+        padding-right: 10px;
+    }
+    .bottom__stars {
+        display: none;
+    }
+
+
+}   
+
+
