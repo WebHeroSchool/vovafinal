@@ -786,6 +786,7 @@ body {
         margin-top: 30px;
     }
     .middle__inner {
+        max-width: 100%;
         align-content: space-between;
         background: url(../img/tesla-fon-ipad-2.png) no-repeat;
         
@@ -943,8 +944,8 @@ body {
 
 @media (max-width: 375px) {
     .header {
-        margin-top: 65px;
-        padding-top: 8px;
+        margin-top: 0px;
+        padding-top: 0px;
         padding-bottom: 27px;
     }
     .header__logo {
@@ -1088,13 +1089,18 @@ body {
     .middle {
         margin-top: 0;
     }
+    .middle__title {
+        display: none;
+    }
+  
     .middle__info {
-        margin-top: 228px;
+        width: 375px;
+        margin-top: 328px;
         height: 300px;
     }
     .middle__info-row {
-        /* width: 400px;
-        height: 304px; */
+        width: 400px;
+        height: 304px;
     }
     .middle__contant {
         width: 400px;
@@ -1143,10 +1149,6 @@ body {
 
 
 }   
-
-
-
-
 
 
 
