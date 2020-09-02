@@ -629,6 +629,9 @@ body {
 /* @MEDIA
 ============================================================================== */
 @media (max-width: 1300px) {
+    .menu {
+        margin-left: 0;
+    }
     .top {
         text-align: center;
         background: url(../img/tesla-fon.png)  no-repeat;
