@@ -1,43 +1,42 @@
-/* шрифты
-==================== */
-/* montserrat-regular - latin_cyrillic */
+
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     src: local('Montserrat Regular'), local('Montserrat-Regular'),
-         url('../fonts/montserrat-v14-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/montserrat-v14-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/montserrat-v14-latin_cyrillic-regular.woff2') format('woff2'), 
+         url('../fonts/montserrat-v14-latin_cyrillic-regular.woff') format('woff'); 
   }
-  /* montserrat-500 - latin_cyrillic */
+
   @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     src: local('Montserrat Medium'), local('Montserrat-Medium'),
-         url('../fonts/montserrat-v14-latin_cyrillic-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/montserrat-v14-latin_cyrillic-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/montserrat-v14-latin_cyrillic-500.woff2') format('woff2'),
+         url('../fonts/montserrat-v14-latin_cyrillic-500.woff') format('woff'); 
   }
-  /* montserrat-600 - latin_cyrillic */
+
   @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
-         url('../fonts/montserrat-v14-latin_cyrillic-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/montserrat-v14-latin_cyrillic-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/montserrat-v14-latin_cyrillic-600.woff2') format('woff2'),
+         url('../fonts/montserrat-v14-latin_cyrillic-600.woff') format('woff');
   }
-  /* montserrat-700 - latin_cyrillic */
+
   @font-face {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     src: local('Montserrat Bold'), local('Montserrat-Bold'),
-         url('../fonts/montserrat-v14-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-         url('../fonts/montserrat-v14-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         url('../fonts/montserrat-v14-latin_cyrillic-700.woff2') format('woff2'),
+         url('../fonts/montserrat-v14-latin_cyrillic-700.woff') format('woff'); 
   }
+}
 
-  html {
+html {
     box-sizing: border-box;
 }
 *, *::before, *::after {
@@ -56,7 +55,6 @@ body {
 
 .container {
     max-width: 1440px;
-    /* margin: 0 auto; */
     height: auto;
 }
 
@@ -193,9 +191,6 @@ body {
     margin-top: 25px;
     margin-right: 75px; 
 }
-.top__imeg {
-    
-}
 .top__wrapper {
     display: flex;
     justify-content: center;
@@ -276,9 +271,6 @@ body {
     margin-bottom: 2px;
     padding-left: 6px;
 }
-
-/* ТЕСТ ДРАЙВ */
-
 .button__outline {
     border: none;
     margin-bottom: 15px;
@@ -332,12 +324,6 @@ body {
     margin-right: 8px;
 }
 
-
-
-
-/* MIDDLE
-===================================================== */
-
 .middle {
     margin-top: 35px;
 }
@@ -359,8 +345,7 @@ body {
     margin-left: 72px;
     margin-top: 65px;
 }
-.middle__img {
-}
+
 .middle__info {
     display: flex;
     flex-direction: column;
@@ -397,12 +382,6 @@ body {
 .middle__column {
     display: flex;
     align-items: center;
-}
-.middle__item {
-    
-}
-.middle__item-wifi {
-  
 }
 
 .middle__screen {
@@ -458,10 +437,6 @@ body {
     padding-left: 18px;
 }
 
-
-
-/* BUTTON-КНОПКА
-===================================================================== */
 .button__btn {
     display: flex;
     align-items: center;
@@ -476,8 +451,7 @@ body {
     margin-left: 13px;
     margin-top: 148px;
 }
-.button__btn-img {
-}
+
 .button__btn-word {
     font-family: Montserrat;
     font-style: normal;
@@ -504,9 +478,6 @@ body {
     margin-left: 30px;
 }
 
-
-/* BOTTOM
-================================================================================ */
 .bottom {
     background: url(../img/model-s-bottom.png) no-repeat;
     background-position: 639px 142px;
@@ -618,8 +589,6 @@ body {
     padding-left: 25px;
 }
 
-
-/* кнопка */
 .button__btn {
     margin-top: 53px;
     margin-left: 0;
@@ -637,10 +606,6 @@ body {
     height: auto;
 }
 
-
-
-/* @MEDIA
-============================================================================== */
 @media (max-width: 1400px) {
     .top__img {
         margin-right: 0;
@@ -862,8 +827,6 @@ body {
         padding-bottom: 15px;
     }
 
-
-
     .bottom {
         background: url(../img/model-s-fon-ipad.png) no-repeat;
         background-position: 95px 68px;
@@ -924,10 +887,7 @@ body {
     }
     .bottom__info-img {
         display: none;
-    }
-    
-
-
+    }  
 }
 
 @media (max-width: 850px) {
@@ -1194,10 +1154,6 @@ body {
         margin-right: 45px;
         margin-bottom: 0;
     }
-    
-
-/* MIDDLE-MEDIA ( 7 6 8 )
-===================================================================== */
 
     .middle {
         width: 768px;
@@ -1290,12 +1246,7 @@ body {
         padding-top: 15px;
         padding-bottom: 15px;
     }
-
-
-
-
-/* MEDIA-BOTTOM (7 6 8)
-===================================================================================== */
+    
     .bottom {
         background: url(../img/model-s-fon-ipad.png) no-repeat;
         background-position: 95px 68px;
@@ -1358,8 +1309,6 @@ body {
     .bottom__info-img {
         display: none;
     }
-    
-   
 }
 
 @media (max-width: 750px) {
@@ -1449,10 +1398,9 @@ body {
         margin-left: 50px;
     }
 
-.top__wrapper-item {
+    .top__wrapper-item {
     margin-left: 0;
-}
-
+    }
     .middle__title {
         margin-left: 300px;
     }
@@ -1472,9 +1420,6 @@ body {
     .middle__btn {
         margin-left: 90px;
     }
-
-
-
 }
 
 @media (max-width: 600px) {
@@ -1499,8 +1444,6 @@ body {
         padding-left: 0;
         margin-left: 20px;
     }
-
-    
 }
 
 @media (max-width: 550px) {
@@ -1903,8 +1846,7 @@ body {
         padding-left: 0;
         font-size: 13px;
     }
-    .top__vector-link {
-    }
+    
 }
 
 @media (max-width: 375px) {
@@ -1988,8 +1930,6 @@ body {
     .charset {
         margin-right: 21px;
         margin-left: 10px;
-
-
     }
     .charset__item {
         margin-right: 0px;
@@ -2059,10 +1999,7 @@ body {
         padding-left: 0;
         font-size: 13px;
     }
-    .top__vector-link {
-    }
-     /* MIDDLE-MOBILE (3 7 5)
-    =============================================== */
+    
     .middle__inner {
         background: url(../img/tesla-mobil2.png) no-repeat;
     }
@@ -2073,7 +2010,7 @@ body {
     .middle__title {
         display: none;
     }
-  
+    
     .middle__info {
         width: 375px;
         margin-top: 328px;
@@ -2101,8 +2038,6 @@ body {
     .button__btn {
         display: none;
     }
-    /* BOTTOM-MOBILE (3 7 5)
-    =================================================================== */
     
     .bottom {
         background: url(../img/model-s-fon-ipad.png) no-repeat;
