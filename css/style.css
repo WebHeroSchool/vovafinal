@@ -721,6 +721,14 @@ body {
         min-width: 120px;
     }
 }
+@media (max-width: 950px) {
+    .top__wrapper {
+        margin-left: 0;
+    }
+    .button__outline {
+        margin-left: 0;
+    }
+}
 
 @media (max-width: 900px) {
     .container {
