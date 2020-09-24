@@ -243,8 +243,7 @@ body {
     margin-right: 0;
     padding-right: 0;
 }
-.span {
-}
+
 .charset__first-big {
     height: 40px;
     padding-top: 0;
@@ -321,9 +320,9 @@ body {
 .button img {
     margin-right: 8px;
 }
-
+/* middle=========================================================================== */
 .middle {
-    margin-top: 35px;
+    margin-top: 31px;
 }
 .middle__inner {
     background: url(../img/svg/tesla-model-s-2.png) no-repeat;
@@ -340,7 +339,7 @@ body {
     font-size: 70px;
     line-height: 85px;
     color: #E51937;
-    margin-left: 72px;
+    margin-left: 80px;
     margin-top: 65px;
 }
 
@@ -349,22 +348,26 @@ body {
     flex-direction: column;
     color: #fff;
     background-color: #E51937;
-    width: 440px;
+    max-width: 440px;
     height: 900px;
+}
+.middle__content {
+    margin-left: 52px;
 }
 .middle__info-title {
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
     margin-top: 51px;
-    margin-left: 44px;
     margin-bottom: 12px;
 }
 .middle__info-text {
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
-    margin: 11px 70px 50px 44px;
+    margin-top: 11px;
+    margin-right: 70px;
+    margin-bottom: 50px;
 }
 .middle__row {
     display: flex;
@@ -380,24 +383,34 @@ body {
 .middle__column {
     display: flex;
     align-items: center;
+    margin-bottom: 6px;
+}
+.middle__column:nth-child(3) {
+    margin-top: 5px;
 }
 
 .middle__screen {
-    padding-top: 0px;
-    padding-left: 4px;
-    padding-bottom: 15px;
+    padding-top: 18px;
+    padding-left: 7px;
+    padding-bottom: 3px;
 }
 .middle__wifi {
     padding-top: 0;
     padding-bottom: 0px;
+    margin-left: 3px;
+    margin-top: 1px;
 }
 .middle__bag {
-    padding-top: 0px;
-    padding-left: 4px;
-    padding-bottom: 8px;
+    padding-right: 4px;
+    padding-top: 18px;
+    padding-left: 7px;
+    padding-bottom: 0;
+}
+.middle__item {
+    height: 90px;
 }
 .middle__first {
-    padding-top: 8px;
+    padding-top: 5px;
     padding-left: 0px;
 }
 .middle__first-big {
@@ -406,12 +419,14 @@ body {
     line-height: 43px;
     padding-left: 20px;
     padding-bottom: 0;
+    padding-right: 7px;
 }
+
 .middle__first-small {
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    padding-left: 10px;
+    padding-left: 0;
 }
 .middle__first-title{
     font-weight: 600;
@@ -431,10 +446,12 @@ body {
 .middle__text {
     font-size: 12px;
     line-height: 15px;
-    padding-bottom: 30px;
-    padding-left: 18px;
+    padding-left: 20px;
 }
-
+.middle__btn {
+    margin-top: 95px;
+    margin-left: 12px;
+}
 .button__btn {
     display: flex;
     align-items: center;
@@ -449,6 +466,9 @@ body {
     margin-left: 13px;
     margin-top: 148px;
 }
+.button__btn-img {
+    padding-right: 7px;
+}
 
 .button__btn-word {
     font-family: Montserrat;
@@ -458,6 +478,7 @@ body {
     font-size: 13px;
     padding-right: 0;
     margin-right: 0;
+    width: 125px;
 }
 .button__btn-text {
     padding: 10px 28px;
@@ -473,12 +494,13 @@ body {
     font-size: 13px;
     padding-left: 40px;
     padding-right: 40px;
-    margin-left: 30px;
+    margin-left: 33px;
+    margin-right: 3px;
 }
-
+/* bottom============================================================================= */
 .bottom {
     background: url(../img/model-s-bottom.png) no-repeat;
-    background-position: 639px 142px;
+    background-position: 647px 142px;
 }
 .bottom__inner {
     display: flex;
@@ -493,8 +515,8 @@ body {
 }
 .bottom__info-img {
     position: relative;
-    left: 337px;
-    top: -672px;
+    left: 345px;
+    top: -673px;
 }
 
 .stars__text {
@@ -505,8 +527,8 @@ body {
 
 
 .bottom__description {
-    padding-left: 48px;
-    padding-top: 49px;
+    padding-left: 56px;
+    padding-top: 48px;
     margin-right: 60px;
 }
 .bottom__description-title {
@@ -530,14 +552,14 @@ body {
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
-    padding-left: 48px;
-    padding-top: 40px;
+    padding-left: 56px;
+    padding-top: 41px;
     margin-top: 0;
     margin-bottom: 13px;
 }
 .bottom__content {
     padding-top: 0;
-    padding-left: 48px;
+    padding-left: 56px;
 }
 .bottom__appraisal-star {
     display: flex;
@@ -547,7 +569,7 @@ body {
 }
 
 .stars {
-   padding-right: 100px;
+   padding-right: 92px;
 }
 .stars__word {
     padding-right: 30px;
@@ -556,7 +578,7 @@ body {
 
 .bottom__shield {
     display: flex;
-    margin-left: 60px;
+    margin-left: 65px;
     margin-top: 102px;
 }
 .bottom__item {
@@ -593,7 +615,7 @@ body {
     margin-right: 13px;
 }
 .button__btn-img {
-    padding-right: 5px;
+    padding-right: 7px;
 }
 .button__btn-text {
     margin-right: 5px;
@@ -747,7 +769,6 @@ body {
     .middle__fon {
         display: flex;
         display: inline-block;
-
     }
     .middle__title {
         margin-top: 11px;
@@ -755,7 +776,7 @@ body {
     }
     .middle__info {
         margin-top: 400px;
-        width: 880px;
+        max-width: 880px;
         height: 490px;
         margin-top: 405px;
 
@@ -764,9 +785,12 @@ body {
         display: flex;
         flex-direction: row;
     }
-    .middle__contant {
-        width: 400px;
-        height: 400px;
+    .middle__content {
+        margin-left: 0;
+    }
+    .middle__row {
+        margin-right: 0;
+        padding-right: 30px;
     }
     .middle__info-title {
         margin-top: 57px;
@@ -809,6 +833,7 @@ body {
         height: 32px;
     }
     .button__btn-word {
+        width: 150px;
         margin-left: 15px;
         margin-right: 23px;
         font-weight: 600;
@@ -910,7 +935,20 @@ body {
         padding-right: 25px;
         margin-right: 0;
     }
+    .middle__inner {
+        max-width: 850px;
+    }
+    .middle__fon {
+        max-width: 850px;
+    }
+    .middle__info-row {
+        max-width: 850px;
+    }
+    .middle__row {
+        margin-right: 0;
+    }
 }
+
 
 @media (max-width: 800px) {
     .container {
@@ -1008,6 +1046,19 @@ body {
         margin-right: 30px;
         margin-bottom: 0;
     }
+
+    .middle__inner {
+        max-width: 800px;
+    }
+    .middle__fon {
+        max-width: 800px;
+    }
+    .middle__info-row {
+        max-width: 800px;
+    }
+    .middle__row {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -1067,9 +1118,10 @@ body {
     .top__wrapper-item {
         display: flex;
         justify-content: center;
-        margin-top: 46px;
+        margin-top: 40px;
         margin-bottom: 60px;
         margin-left: 15px;
+        margin-right: 0;
     }
     .charset {
         margin-right: 34px;
@@ -1152,13 +1204,12 @@ body {
         margin-right: 45px;
         margin-bottom: 0;
     }
-
+/* middle (768) ====================================================================== */
     .middle {
-        width: 768px;
+        max-width: 768px;
         margin-top: 26px;
     }
     .middle__inner {
-        max-width: 100%;
         align-content: space-between;
         background: url(../img/tesla-fon-ipad-2.png) no-repeat;
         
@@ -1174,7 +1225,7 @@ body {
     }
     .middle__info {
         margin-top: 400px;
-        width: 768px;
+        max-width: 768px;
         height: 490px;
         margin-top: 405px;
 
@@ -1183,12 +1234,9 @@ body {
         display: flex;
         flex-direction: row;
     }
-    .middle__contant {
-        width: 400px;
-        height: 400px;
-    }
+    
     .middle__info-title {
-        margin-top: 57px;
+        margin-top: 55px;
         margin-left: 32px;
     }
     .middle__info-text {
@@ -1203,15 +1251,19 @@ body {
         margin-left: 50px;
         padding-right: 50px;
     }
+    .middle__column {
+        align-items: center;
+        margin-bottom: 5;
+    }
+    .middle__column:nth-child(3) {
+        margin-top: 0;
+    }
     
     .middle__screen {
         padding-bottom: 0;
-        padding-top: 8px;
+        padding-top: 30px;
     }
     
-    .middle__text {
-        padding-bottom: 25px;
-    }
     .middle__btn {
         margin-left: 152px;
         margin-top: 17px;
@@ -1253,7 +1305,7 @@ body {
     .bottom__inner {
         max-width: 768px;
         background: url(../img/car-ipad.png) no-repeat;
-        background-position: 0 75px;
+        background-position: 0 73px;
     }
     .bottom__inner-img {
         padding-top: 75px;
@@ -1261,7 +1313,7 @@ body {
     .bottom__info {
         height: 490px;
         width: 768px;
-        margin-top: 538px;
+        margin-top: 535px;
     }
     .bottom__content-stars {
         display: flex;
@@ -1269,8 +1321,8 @@ body {
     }
     .bottom__description {
         margin-right: 0;
-        padding-left: 35px;
-        padding-top: 59px;
+        padding-left: 34px;
+        padding-top: 60px;
         width: 362px;
         height: 355px;
     }
@@ -1280,7 +1332,7 @@ body {
         height: 400px;
         margin-left: 0;
         margin-top: 22px;
-        padding-left: 58px;
+        padding-left: 60px;
     }
     .bottom__appraisal-title {
         padding-left: 0;
@@ -1321,6 +1373,11 @@ body {
         background-repeat: no-repeat;
         background-size: 750px 271px;
     }
+    .top__wrapper-charset {
+        background: url(../img/svg/road-ipad.svg) no-repeat;
+        background-position: 370px 0;
+    }
+
     .middle__title {
         margin-left: 390px;
     }
@@ -1331,9 +1388,22 @@ body {
     .charset {
         margin-left: 20px;
     }
-    .top__wrapper-charset {
-        background: url(../img/svg/road-ipad.svg) no-repeat;
-        background-position: 370px 0;
+    
+    .middle__inner {
+        max-width: 750px;
+    }
+    .middle__fon {
+        max-width: 750px;
+    }
+    .middle__info-row {
+        max-width: 750px;
+    }
+    .middle__row {
+        margin-left: 30px;
+        margin-right: 0;
+    }
+    .middle__btn {
+        margin-left: 130px;
     }
 }
 
@@ -1359,14 +1429,24 @@ body {
         padding-left: 0;
         margin-left: 65px;
     }
+
+    .middle__inner {
+        max-width: 700px;
+    }
+    .middle__fon {
+        max-width: 700px;
+    }
+    .middle__info-row {
+        max-width: 700px;
+    }
     .middle__title {
         margin-left: 300px;
     }
     .middle__row {
-        margin-left: 30px;
+        margin-right: 0;
+        margin-left: 40px;
         padding-left: 0;
         padding-right: 0;
-        width: 250px;
     }
 }
 
@@ -1386,6 +1466,9 @@ body {
         background: url(../img/svg/road-ipad.svg) no-repeat;
         background-position: 300px 0;
     }
+    .top__wrapper-item {
+        margin-left: 0;
+        }
     .charset {
         margin-right: 0;
     }
@@ -1395,9 +1478,23 @@ body {
         padding-left: 0;
         margin-left: 50px;
     }
-
-    .top__wrapper-item {
-    margin-left: 0;
+    .middle__inner {
+        max-width: 650px;
+    }
+    .middle__fon {
+        max-width: 650px;
+    }
+    .middle__info-row {
+        max-width: 650px;
+    }
+    .middle__inner {
+        max-width: 650px;
+    }
+    .middle__fon {
+        max-width: 650px;
+    }
+    .middle__info-row {
+        max-width: 650px;
     }
     .middle__title {
         margin-left: 300px;
@@ -1410,10 +1507,9 @@ body {
         width: 280px;
     }
     .middle__row {
-        margin-left: 20px;
-        padding-left: 10px;
+        margin-left: 0;
+        padding-left: 0;
         padding-right: 0;
-        width: 260px;
     }
     .middle__btn {
         margin-left: 90px;
@@ -1442,6 +1538,33 @@ body {
         padding-left: 0;
         margin-left: 20px;
     }
+    
+    
+    .middle__title {
+        margin-left: 230px;
+    }
+    .middle__info-title {
+        margin-left: 10px;
+    }
+    .middle__info-text {
+        margin-left: 10px;
+    }
+    .middle__first-title {
+        font-size: 17px;
+        padding-left: 10px;
+    }
+    .middle__first-text {
+        font-size: 10px;
+        padding-left: 10px;
+    }
+    .middle__btn {
+        margin-left: 30px;
+    }
+    .middle__text {
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+
 }
 
 @media (max-width: 550px) {
@@ -1472,6 +1595,52 @@ body {
         height: 50.16px;
         padding-left: 0;
         margin-left: 0;
+    }
+    /* MIDDLE 550=============================================================== */
+    .middle {
+        max-width: 550px;
+        margin-top: 0;
+    }
+    .middle__fon {
+        max-width: 550px;
+    }
+    .middle__title {
+        display: none;
+    }
+    
+    .middle__info {
+        max-width: 550px;
+        margin-top: 500px;
+        height: 400px;
+    }
+    .middle__info-row {
+        max-width: 550px;
+        height: 304px;
+    }
+    .middle__content {
+        max-width: 550px;
+    }
+    .middle__info-title {
+        margin-top: 18px;
+        margin-left: 24px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 37px;
+    }
+    .middle__info-text {
+        width: 300px;
+        max-width: 550px;
+        margin-bottom: 0;
+        margin-top: 0px;
+        margin-left: 25px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .middle__row {
+        display: none;
+    }
+    .button__btn {
+        display: none;
     }
 }
 
@@ -1572,6 +1741,31 @@ body {
         padding-right: 0;
         padding-left: 0;
         font-size: 13px;
+    }
+
+    
+    .bottom {
+        background: url(../img/model-s-fon-ipad.png) no-repeat;
+        background-size: 400px 80px;
+        background-position: 0 50px;
+    }
+    .bottom__inner {
+        background: url(../img/car-mobile.png) no-repeat;
+        background-position: 0 60px;
+    }
+    
+    .bottom__info {
+        margin-top: 296px;
+        width: 375px;
+        height: 300px;
+    }
+    .bottom__description {
+        padding-top: 16px;
+        padding-left: 31px;
+        padding-right: 10px;
+    }
+    .bottom__stars {
+        display: none;
     }
 }
 @media (max-width: 450px) {
@@ -1688,12 +1882,33 @@ body {
         padding-left: 0;
         font-size: 13px;
     }
+
+    .bottom {
+        background: url(../img/model-s-fon-ipad.png) no-repeat;
+        background-size: 400px 80px;
+        background-position: 0 50px;
+    }
+    .bottom__inner {
+        background: url(../img/car-mobile.png) no-repeat;
+        background-position: 0 60px;
+    }
+    
+    .bottom__info {
+        margin-top: 296px;
+        width: 375px;
+        height: 300px;
+    }
+    .bottom__description {
+        padding-top: 16px;
+        padding-left: 31px;
+        padding-right: 10px;
+    }
+    .bottom__stars {
+        display: none;
+    }
 }
 
 @media (max-width: 400px) {
-    .container {
-        max-width: 100%;
-    }
     .header {
         margin-top: 0px;
         padding-top: 0px;
@@ -1843,6 +2058,35 @@ body {
         padding-right: 0;
         padding-left: 0;
         font-size: 13px;
+    }
+/* MIDDLE 400======================================================================== */
+    .middle__content {
+        max-width: 100%;
+    }
+
+
+    .bottom {
+        background: url(../img/model-s-fon-ipad.png) no-repeat;
+        background-size: 400px 80px;
+        background-position: 0 50px;
+    }
+    .bottom__inner {
+        background: url(../img/car-mobile.png) no-repeat;
+        background-position: 0 60px;
+    }
+    
+    .bottom__info {
+        margin-top: 296px;
+        width: 375px;
+        height: 300px;
+    }
+    .bottom__description {
+        padding-top: 16px;
+        padding-left: 31px;
+        padding-right: 10px;
+    }
+    .bottom__stars {
+        display: none;
     }
 
 }
@@ -1997,12 +2241,13 @@ body {
         padding-left: 0;
         font-size: 13px;
     }
-    
+    /* MIDDLE 375==================================================================== */
     .middle__inner {
         background: url(../img/tesla-mobil2.png) no-repeat;
+        max-width: 100%;
     }
     .middle {
-        width: 375px;
+        max-width: 375px;
         margin-top: 0;
     }
     .middle__title {
@@ -2010,25 +2255,31 @@ body {
     }
     
     .middle__info {
-        width: 375px;
-        margin-top: 328px;
+        min-width: 375px;
+        margin-top: 319px;
         height: 300px;
     }
     .middle__info-row {
-        width: 400px;
+        max-width: 375px;
         height: 304px;
     }
-    .middle__contant {
-        width: 400px;
-        height: 304px;
+    .middle__content {
+        max-width: 375px;
     }
+
     .middle__info-title {
-        margin-top: 21px;
-        margin-left: 25px;
+        margin-top: 18px;
+        margin-left: 24px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        line-height: 37px;
     }
     .middle__info-text {
-        margin-top: 10px;
+        max-width: 300px;
+        margin-top: 0px;
         margin-left: 25px;
+        font-size: 15px;
+        line-height: 18px;
     }
     .middle__row {
         display: none;
@@ -2048,13 +2299,13 @@ body {
     }
     
     .bottom__info {
-        margin-top: 300px;
+        margin-top: 296px;
         width: 375px;
         height: 300px;
     }
     .bottom__description {
-        padding-top: 20px;
-        padding-left: 30px;
+        padding-top: 16px;
+        padding-left: 31px;
         padding-right: 10px;
     }
     .bottom__stars {
