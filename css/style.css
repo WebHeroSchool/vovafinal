@@ -517,6 +517,7 @@ body {
     position: relative;
     left: 345px;
     top: -673px;
+    width: 100%;
 }
 
 .stars__text {
@@ -630,6 +631,30 @@ body {
     .top__img {
         margin-right: 0;
     }
+    .bottom__info-img {
+        display: none;
+    }
+    .bottom {
+        background: url(../img/model-s-bottom.png) no-repeat;
+        background-position: 520px 142px;
+    }
+    .bottom__inner {
+        background: url(../img/car-ipad.png) no-repeat;
+        background-position: 400px 150px;
+        background-size: 900px 500px ;
+    }
+}
+
+@media (max-width: 1350px) {
+    .bottom {
+        background: url(../img/model-s-bottom.png) no-repeat;
+        background-position: 470px 142px;
+    }
+    .bottom__inner {
+        background: url(../img/car-ipad.png) no-repeat;
+        background-position: 420px 150px;
+        background-size: 900px 500px ;
+    }
 }
 
 @media (max-width: 1300px) {
@@ -644,6 +669,16 @@ body {
         background: url(../img/tesla-fon.png)  no-repeat;
         background-position: 50% 0;
         background-size: 1300px 467px;
+    }
+    .bottom {
+        background: url(../img/model-s-bottom.png) no-repeat;
+        background-position: 470px 142px;
+        background-size: 700px 150px;
+    }
+    .bottom__inner {
+        background: url(../img/car-ipad.png) no-repeat;
+        background-position: 420px 150px;
+        background-size: 800px 500px ;
     }
 }
 
@@ -666,6 +701,16 @@ body {
     .top__wrapper-item {
         margin-right: 80px;
     }
+    .bottom {
+        background: url(../img/model-s-bottom.png) no-repeat;
+        background-position: 470px 142px;
+        background-size: 500px 150px;
+    }
+    .bottom__inner {
+        background: url(../img/car-ipad.png) no-repeat;
+        background-position: 415px 150px;
+        background-size: 700px 400px ;
+    }
 }
 @media (max-width: 1100px) {
     .top {
@@ -673,6 +718,16 @@ body {
         background: url(../img/tesla-fon.png)  no-repeat;
         background-position: 50% 0;
         background-size: 1150px 467px;
+    }
+    .bottom {
+        background: url(../img/model-s-bottom.png) no-repeat;
+        background-position: 470px 142px;
+        background-size: 500px 130px;
+    }
+    .bottom__inner {
+        background: url(../img/car-ipad.png) no-repeat;
+        background-position: 430px 200px;
+        background-size: 600px 350px ;
     }
 }
 
@@ -705,6 +760,28 @@ body {
     .button__text {
         min-width: 120px;
     }
+    .bottom {
+        background: url(../img/model-s-bottom.png) no-repeat;
+        background-position: 470px 142px;
+        background-size: 500px 100px;
+    }
+    .bottom__inner {
+        background: url(../img/car-ipad.png) no-repeat;
+        background-position: 420px 150px;
+        background-size: 580px 390px ;
+    }
+}
+@media (max-width: 1000px) {
+    .bottom {
+        background: url(../img/model-s-bottom.png) no-repeat;
+        background-position: 470px 142px;
+        background-size: 400px 100px;
+    }
+    .bottom__inner {
+        background: url(../img/car-ipad.png) no-repeat;
+        background-position: 430px 150px;
+        background-size: 500px 350px ;
+    }
 }
 @media (max-width: 950px) {
     .top__wrapper {
@@ -712,6 +789,16 @@ body {
     }
     .button__outline {
         margin-left: 0;
+    }
+    .bottom {
+        background: url(../img/model-s-bottom.png) no-repeat;
+        background-position: 470px 142px;
+        background-size: 400px 100px;
+    }
+    .bottom__inner {
+        background: url(../img/car-ipad.png) no-repeat;
+        background-position: 425px 150px;
+        background-size: 480px 340px ;
     }
 }
 
@@ -731,6 +818,16 @@ body {
     .button__outline {
         margin-left: 0;
         margin-right: 0;
+    }
+    .bottom {
+        background: url(../img/model-s-bottom.png) no-repeat;
+        background-position: 470px 142px;
+        background-size: 370px 100px;
+    }
+    .bottom__inner {
+        background: url(../img/car-ipad.png) no-repeat;
+        background-position: 430px 150px;
+        background-size: 450px 300px ;
     }
 }
 
@@ -1207,7 +1304,7 @@ body {
 /* middle (768) ====================================================================== */
     .middle {
         max-width: 768px;
-        margin-top: 26px;
+        margin-top: 30px;
     }
     .middle__inner {
         align-content: space-between;
@@ -1236,14 +1333,14 @@ body {
     }
     
     .middle__info-title {
-        margin-top: 55px;
-        margin-left: 32px;
+        margin-top: 57px;
+        margin-left: 34px;
     }
     .middle__info-text {
         width: 320px;
         margin-right: 0;
         margin-top: 22px;
-        margin-left: 32px;
+        margin-left: 34px;
     }
     .middle__row {
         margin-right: 20px;
@@ -1265,8 +1362,8 @@ body {
     }
     
     .middle__btn {
-        margin-left: 152px;
-        margin-top: 17px;
+        margin-left: 151px;
+        margin-top: 16px;
     }
     .button__btn {
         display: flex;
@@ -1279,10 +1376,11 @@ body {
     .button__btn-img {
         width: 32px;
         height: 32px;
+        padding-right: 0;
     }
     .button__btn-word {
-        margin-left: 15px;
-        margin-right: 23px;
+        margin-left: 13px;
+        margin-right: 25px;
         font-weight: 600;
         font-size: 16px;
         line-height: 20px;
@@ -1313,7 +1411,7 @@ body {
     .bottom__info {
         height: 490px;
         width: 768px;
-        margin-top: 535px;
+        margin-top: 537px;
     }
     .bottom__content-stars {
         display: flex;
@@ -1405,6 +1503,22 @@ body {
     .middle__btn {
         margin-left: 130px;
     }
+
+    .bottom__inner {
+        background: url(../img/car-ipad.png) no-repeat;
+        background-size: 100%;
+        background-position: 0 80px;
+    }
+    .bottom__description {
+        padding-left: 15px;
+    }
+    .bottom__stars {
+        padding-left: 0;
+        width: 350px;
+    }
+    .bottom__btn {
+        margin-left: 100px;
+    }
 }
 
 @media (max-width: 700px) {
@@ -1447,6 +1561,23 @@ body {
         margin-left: 40px;
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .bottom {
+        background: url(../img/model-s-fon-ipad.png) no-repeat;
+        background-position: 55px 68px;
+    }
+
+    .bottom__inner {
+        background: url(../img/car-ipad.png) no-repeat;
+        background-size: 100%;
+        background-position: 0 110px;
+    }
+    .bottom__stars {
+        display: none;
+    }
+    .bottom__btn {
+        display: none;
     }
 }
 
@@ -1514,6 +1645,19 @@ body {
     .middle__btn {
         margin-left: 90px;
     }
+
+
+    .bottom {
+        background: url(../img/model-s-fon-ipad.png) no-repeat;
+        background-size: 550px 100px;
+        background-position: 38px 68px;
+    }
+
+    .bottom__inner {
+        background: url(../img/car-ipad.png) no-repeat;
+        background-size: 100%;
+        background-position: 0 130px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -1565,6 +1709,18 @@ body {
         padding-right: 30px;
     }
 
+    .bottom {
+        background: url(../img/model-s-fon-ipad.png) no-repeat;
+        background-size: 500px 100px;
+        background-position: 38px 68px;
+    }
+
+    .bottom__inner {
+        background: url(../img/car-ipad.png) no-repeat;
+        background-size: 100%;
+        background-position: 0 130px;
+    }
+
 }
 
 @media (max-width: 550px) {
@@ -1602,7 +1758,7 @@ body {
         margin-top: 0;
     }
     .middle__fon {
-        max-width: 550px;
+        width: 100%;
     }
     .middle__title {
         display: none;
@@ -1642,6 +1798,23 @@ body {
     .button__btn {
         display: none;
     }
+
+    .bottom__content-stars {
+        width: 100%;
+    }
+
+    .bottom {
+        background: url(../img/model-s-fon-ipad.png) no-repeat;
+        background-size: 450px 100px;
+        background-position: 20px 100px;
+    }
+
+    .bottom__inner {
+        background: url(../img/car-ipad.png) no-repeat;
+        background-size: 100%;
+        background-position: 0 150px;
+    }
+
 }
 
 @media (max-width: 500px) {
@@ -1743,30 +1916,20 @@ body {
         font-size: 13px;
     }
 
-    
     .bottom {
         background: url(../img/model-s-fon-ipad.png) no-repeat;
-        background-size: 400px 80px;
-        background-position: 0 50px;
+        background-size: 400px 100px;
+        background-position: 20px 100px;
     }
+
     .bottom__inner {
-        background: url(../img/car-mobile.png) no-repeat;
-        background-position: 0 60px;
+        background: url(../img/car-ipad.png) no-repeat;
+        background-size: 100%;
+        background-position: 0 130px;
     }
     
-    .bottom__info {
-        margin-top: 296px;
-        width: 375px;
-        height: 300px;
-    }
-    .bottom__description {
-        padding-top: 16px;
-        padding-left: 31px;
-        padding-right: 10px;
-    }
-    .bottom__stars {
-        display: none;
-    }
+    
+  
 }
 @media (max-width: 450px) {
     .container {
@@ -1881,30 +2044,6 @@ body {
         padding-right: 0;
         padding-left: 0;
         font-size: 13px;
-    }
-
-    .bottom {
-        background: url(../img/model-s-fon-ipad.png) no-repeat;
-        background-size: 400px 80px;
-        background-position: 0 50px;
-    }
-    .bottom__inner {
-        background: url(../img/car-mobile.png) no-repeat;
-        background-position: 0 60px;
-    }
-    
-    .bottom__info {
-        margin-top: 296px;
-        width: 375px;
-        height: 300px;
-    }
-    .bottom__description {
-        padding-top: 16px;
-        padding-left: 31px;
-        padding-right: 10px;
-    }
-    .bottom__stars {
-        display: none;
     }
 }
 
@@ -2063,7 +2202,9 @@ body {
     .middle__content {
         max-width: 100%;
     }
-
+    .middle__info-row {
+        height: 304px;
+    }
 
     .bottom {
         background: url(../img/model-s-fon-ipad.png) no-repeat;
@@ -2074,12 +2215,10 @@ body {
         background: url(../img/car-mobile.png) no-repeat;
         background-position: 0 60px;
     }
-    
     .bottom__info {
         margin-top: 296px;
-        width: 375px;
-        height: 300px;
     }
+    
     .bottom__description {
         padding-top: 16px;
         padding-left: 31px;
@@ -2088,7 +2227,6 @@ body {
     .bottom__stars {
         display: none;
     }
-
 }
 
 @media (max-width: 375px) {
@@ -2244,7 +2382,6 @@ body {
     /* MIDDLE 375==================================================================== */
     .middle__inner {
         background: url(../img/tesla-mobil2.png) no-repeat;
-        max-width: 100%;
     }
     .middle {
         max-width: 375px;
@@ -2255,12 +2392,12 @@ body {
     }
     
     .middle__info {
-        min-width: 375px;
-        margin-top: 319px;
+        max-width: 375px;
+        margin-top: 320px;
         height: 300px;
     }
     .middle__info-row {
-        max-width: 375px;
+        max-width: 400px;
         height: 304px;
     }
     .middle__content {
@@ -2268,8 +2405,8 @@ body {
     }
 
     .middle__info-title {
-        margin-top: 18px;
-        margin-left: 24px;
+        margin-top: 17px;
+        margin-left: 26px;
         margin-bottom: 10px;
         font-size: 30px;
         line-height: 37px;
@@ -2277,7 +2414,7 @@ body {
     .middle__info-text {
         max-width: 300px;
         margin-top: 0px;
-        margin-left: 25px;
+        margin-left: 27px;
         font-size: 15px;
         line-height: 18px;
     }
@@ -2287,7 +2424,7 @@ body {
     .button__btn {
         display: none;
     }
-    
+
     .bottom {
         background: url(../img/model-s-fon-ipad.png) no-repeat;
         background-size: 400px 80px;
@@ -2297,17 +2434,25 @@ body {
         background: url(../img/car-mobile.png) no-repeat;
         background-position: 0 60px;
     }
-    
+
     .bottom__info {
-        margin-top: 296px;
-        width: 375px;
+        margin-top: 297px;
+        width: 400px;
         height: 300px;
     }
+    
     .bottom__description {
         padding-top: 16px;
         padding-left: 31px;
         padding-right: 10px;
     }
+    .bottom__description-title {
+        margin-top: 2px;
+    }
+    .bottom__description-text {
+        padding-top: 12px;
+    }
+
     .bottom__stars {
         display: none;
     }
