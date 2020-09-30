@@ -533,6 +533,7 @@ body {
     margin-right: 60px;
 }
 .bottom__description-title {
+    width: 320px;
     font-weight: 600;
     font-size: 30px;
     line-height: 37px;
@@ -977,22 +978,23 @@ body {
     }
     
     .bottom__stars {
-        width: 420px;
+        width: 350px;
         height: 400px;
         margin-left: 0;
         margin-top: 5px;
-        padding-left: 67px;
+        padding-left: 50px;
     }
     .bottom__appraisal-title {
         padding-left: 0;
     }
     .bottom__content {
+        width: 292px;
         padding-left: 0;
         margin-left: 0;
     }
     
     .stars {
-        padding-right: 55px;
+        padding-right: 0;
     }
     
     .bottom__shield {
@@ -1355,7 +1357,7 @@ body {
     .middle__column:nth-child(3) {
         margin-top: 0;
     }
-    
+
     .middle__screen {
         padding-bottom: 0;
         padding-top: 30px;
@@ -1436,12 +1438,13 @@ body {
         padding-left: 0;
     }
     .bottom__content {
+        width: 292px;
         padding-left: 0;
         margin-left: 0;
     }
     
     .stars {
-        padding-right: 55px;
+        padding-right: 0;
     }
     
     .bottom__shield {
@@ -1458,7 +1461,12 @@ body {
         display: none;
     }
 }
-
+@media (max-width: 767px) {
+    .bottom__stars {
+        padding-left: 40px;
+        width: 320px;
+    }
+}
 @media (max-width: 750px) {
     .container {
         max-width: 100%;
@@ -1510,11 +1518,22 @@ body {
         background-position: 0 80px;
     }
     .bottom__description {
+        width: 335px;
         padding-left: 15px;
     }
     .bottom__stars {
+        margin-left: 15px;
         padding-left: 0;
         width: 350px;
+    }
+    .bottom__content {
+        width: 292px;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    
+    .stars {
+        padding-right: 0;
     }
     .bottom__btn {
         margin-left: 100px;
@@ -1957,7 +1976,7 @@ body {
     .top__wrapper-charset{
         display: flex;
         align-items: center;
-        margin-left: 0;
+        margin-left: 30px;
         margin-right: 0;
         padding-right: 0;
         background: url(../img/svg/road-mobile.svg) no-repeat;
@@ -2222,7 +2241,7 @@ body {
     .bottom__description {
         padding-top: 16px;
         padding-left: 31px;
-        padding-right: 10px;
+        padding-right: 0;
     }
     .bottom__stars {
         display: none;
@@ -2379,6 +2398,10 @@ body {
         padding-left: 0;
         font-size: 13px;
     }
+    .bottom__description-title {
+        width: 320px;
+    }
+    
     /* MIDDLE 375==================================================================== */
     .middle__inner {
         background: url(../img/tesla-mobil2.png) no-repeat;
@@ -2447,12 +2470,13 @@ body {
         padding-right: 10px;
     }
     .bottom__description-title {
+        width: 320px;
         margin-top: 2px;
     }
     .bottom__description-text {
         padding-top: 12px;
     }
-
+    
     .bottom__stars {
         display: none;
     }
