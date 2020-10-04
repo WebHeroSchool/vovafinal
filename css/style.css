@@ -724,7 +724,7 @@ body {
       background-position: 420px 150px;
       background-size: 900px 500px ;
   }
-  
+
 }
 
 @media (max-width: 1300px) {
@@ -2834,4 +2834,88 @@ body {
   .bottom__stars {
       display: none;
   }
-}   
+} 
+
+@media (max-width: 373px) {
+  .top {
+    background: url(../img/tesla-fon.png) ;
+    background-position: -18px 80px;
+    background-repeat: no-repeat;
+    background-size: 370px 120px;
+  }
+
+  .top__wrapper-charset {
+      margin-left: 10px;
+      background: url(../img/svg/road-mobile.svg) no-repeat;
+      background-position: 150px 2px;
+  }
+  .charset {
+      width: 120px;
+  }
+
+  .charset__speed {
+      margin-left: 0;
+      margin-right: 5px;
+  }
+
+  .charset__item {
+      width: 100px;
+  }
+
+  .charset__first-small {
+      margin-right: 0;
+      padding-right: 0;
+  }
+
+  .top__wrapper-item {
+      margin-right: 0;
+  }
+
+  .button__outline {
+      padding-left: 10px;
+      padding-right: 0;
+      margin-left: 0;
+  }
+
+  .button__red {
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  .middle__content {
+      width: 320px;
+  }
+
+  .middle__info-title {
+      margin-left: 3px;
+  }
+
+  .middle__info-text {
+      margin-left: 5px;
+  }
+
+  .bottom {
+    background: url(../img/model-s-fon-ipad.png) no-repeat;
+    background-size: 300px 80px;
+    background-position: 0 50px;
+}
+
+.bottom__inner {
+    background: url(../img/car-mobile.png) no-repeat;
+    background-position: 0 0;
+    background-size: 320px 300px;
+}
+
+  .bottom__content-stars {
+      width: 320px;
+  }
+
+  .bottom__description {
+      padding-left: 0;
+      padding-right: 0;
+  }
+  .bottom__description-text {
+      width: 320px;
+  }
+
+}
