@@ -518,7 +518,6 @@ body {
   padding-right: 35px;
   margin-bottom: 0;
   background-color: #e51937;
-  margin-left: 0;
   margin-top: 53px;
   margin-left: 13px;
 }
@@ -1116,11 +1115,6 @@ body {
 
   .bottom__btn {
     margin-left: 152px;
-  }
-
-  .button__btn {
-    margin-top: 0;
-    margin-left: 0;
   }
 
   .bottom__info-img {
@@ -2836,8 +2830,13 @@ body {
     padding-right: 0;
   }
 
+  .top__wrapper-charset {
+    margin-left: 0;
+  }
+
   .top__wrapper-item {
-    margin-right: 0;
+    margin-right: 15px;
+    margin-left: 0;
   }
 
   .button__outline {
