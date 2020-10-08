@@ -701,7 +701,7 @@ body {
   .bottom__inner {
     background: url(../img/car-ipad.png) no-repeat;
     background-position: 400px 150px;
-    background-size: 900px 500px ;
+    background-size: 900px 500px;
   }
 
 }
@@ -856,7 +856,7 @@ body {
     background-position: 420px 150px;
     background-size: 580px auto;
   }
-  
+
 }
 
 @media (max-width: 1000px) {
@@ -982,7 +982,6 @@ body {
   }
 
   .middle__info {
-    margin-top: 400px;
     max-width: 880px;
     height: 490px;
     margin-top: 405px;
@@ -995,11 +994,6 @@ body {
 
   .middle__content {
     margin-left: 0;
-  }
-
-  .middle__row {
-    margin-right: 0;
-    padding-right: 30px;
   }
 
   .middle__info-title {
@@ -1117,11 +1111,11 @@ body {
     padding-left: 0;
     margin-left: 0;
   }
-    
+
   .stars {
     padding-right: 0;
   }
-    
+
   .bottom__shield {
     display: none;
   }
@@ -1136,8 +1130,8 @@ body {
   }
 
   .bottom__info-img {
-   display: none;
-   }  
+    display: none;
+  }
 
 }
 
@@ -1199,7 +1193,7 @@ body {
     background-size: 800px 467px;
   }
 
- .top__wrapper {
+  .top__wrapper {
     display: flex;
     flex-direction: column;
     margin-left: 10px;
@@ -1212,7 +1206,7 @@ body {
   }
 
   .top__wrapper-item {
-    margin: 30px 0px;
+    margin: 30px 0;
     display: flex;
     justify-content: center;
     margin-top: 45px;
@@ -1221,7 +1215,7 @@ body {
   }
 
   .charset {
-    margin: 0px 30px;
+    margin: 0 30px;
     justify-content: center;
   }
 
@@ -1248,7 +1242,7 @@ body {
 
   .charset__first-small {
     margin-right: 62px;
-    padding-right: 0px;
+    padding-right: 0;
     padding-left: 7px;
     padding-bottom: 10px;
   }
@@ -1285,9 +1279,9 @@ body {
   .button__red {
     background-color: #e51937;
     color: #fff;
-    margin: 0px 30px;
+    margin: 0 30px;
     justify-content: center;
-    margin-left: 0px;
+    margin-left: 0;
     padding-left: 45px;
     padding-right: 45px;
     padding-top: 15px;
@@ -1339,7 +1333,7 @@ body {
   }
 
   .top {
-    padding: 90px 0px 30px;
+    padding: 90px 0 30px;
     padding-top: 26px;
     background: url(../img/tesla-fon.png);
     background-position: 0 177px;
@@ -1347,22 +1341,22 @@ body {
     background-size: 822px 271px;
   }
 
-  .top__title{
-    margin-left: 0px;
+  .top__title {
+    margin-left: 0;
     margin-top: 55px;
   }
 
-  .top__subtitle{
-    margin-left: 0px;
-    margin-right: 0px;
+  .top__subtitle {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .top__img {
     width: 700px;
     height: auto;
-    margin-right: 0px;
+    margin-right: 0;
     margin-top: 89px;
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .top__wrapper {
@@ -1423,7 +1417,7 @@ body {
 
   .charset__first-small {
     margin-right: 62px;
-    padding-right: 0px;
+    padding-right: 0;
     padding-left: 4px;
     padding-bottom: 0;
     padding-top: 7px;
@@ -1464,13 +1458,13 @@ body {
     font-size: 16px;
     line-height: 20px;
   }
-    
+
   .button__red {
     background-color: #e51937;
     color: #fff;
-    margin: 0px 30px;
+    margin: 0 30px;
     justify-content: center;
-    margin-left: 0px;
+    margin-left: 0;
     padding-left: 50px;
     padding-right: 47px;
     padding-top: 15px;
@@ -1532,7 +1526,7 @@ body {
 
   .middle__column {
     align-items: center;
-    margin-bottom: 5;
+    margin-bottom: 5px;
   }
 
   .middle__column:nth-child(3) {
@@ -1671,7 +1665,7 @@ body {
   }
 
   .top {
-    padding: 90px 0px 30px;
+    padding: 90px 0 30px;
     padding-top: 26px;
     background: url(../img/tesla-fon.png);
     background-position: 0 160px;
@@ -1757,7 +1751,7 @@ body {
   }
 
   .top {
-    padding: 90px 0px 30px;
+    padding: 90px 0 30px;
     padding-top: 26px;
     background: url(../img/tesla-fon.png);
     background-position: 0 160px;
@@ -1827,7 +1821,7 @@ body {
   }
 
   .top {
-    padding: 90px 0px 30px;
+    padding: 90px 0 30px;
     padding-top: 26px;
     background: url(../img/tesla-fon.png);
     background-position: 0 160px;
@@ -1853,18 +1847,6 @@ body {
     height: 50.16px;
     padding-left: 0;
     margin-left: 50px;
-  }
-
-  .middle__inner {
-    max-width: 650px;
-  }
-
-  .middle__fon {
-    max-width: 650px;
-  }
-
-  .middle__info-row {
-    max-width: 650px;
   }
 
   .middle__inner {
@@ -1921,7 +1903,7 @@ body {
   }
 
   .top {
-    padding: 90px 0px 30px;
+    padding: 90px 0 30px;
     padding-top: 26px;
     background: url(../img/tesla-fon.png);
     background-position: 0 160px;
@@ -1968,8 +1950,8 @@ body {
   }
 
   .middle__text {
-   padding-left: 10px;
-   padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 30px;
   }
 
   .bottom {
@@ -1992,7 +1974,7 @@ body {
   }
 
   .top {
-    padding: 90px 0px 30px;
+    padding: 90px 0 30px;
     padding-top: 26px;
     background: url(../img/tesla-fon.png);
     background-position: 0 160px;
@@ -2060,7 +2042,7 @@ body {
   .middle__info-text {
     width: 300px;
     margin-bottom: 0;
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 25px;
     font-size: 15px;
     line-height: 18px;
@@ -2098,7 +2080,7 @@ body {
   }
 
   .top {
-    padding: 90px 0px 30px;
+    padding: 90px 0 30px;
     padding-top: 26px;
     background: url(../img/tesla-fon.png);
     background-position: 0 160px;
@@ -2106,7 +2088,7 @@ body {
     background-size: 500px 271px;
   }
 
-  .top__wrapper { 
+  .top__wrapper {
     margin-left: 0;
     margin-right: 0;
     margin-top: 20px;
@@ -2128,20 +2110,20 @@ body {
     margin-top: 15px;
     margin-bottom: 25px;
     margin-right: 25px;
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .charset {
-    margin: 0px 10px;
+    margin: 0 10px;
   }
 
   .charset__item {
-    margin-right: 0px;
-    margin-left: 20;
+    margin-right: 0;
+    margin-left: 20px;
   }
 
   .charset__first {
-    margin: 0px 2px 0px 0px;
+    margin: 0 2px 0 0;
   }
 
   .charset__speed {
@@ -2181,7 +2163,7 @@ body {
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 13px;
-    background-position: 0px 10px;
+    background-position: 0 10px;
     background-size: 22px 22px;
   }
 
@@ -2234,7 +2216,7 @@ body {
   }
 
   .top {
-    padding: 90px 0px 30px;
+    padding: 90px 0 30px;
     padding-top: 26px;
     background: url(../img/tesla-fon.png);
     background-position: 0 160px;
@@ -2248,7 +2230,7 @@ body {
     margin-top: 22px;
   }
 
-  .top__wrapper-charset{
+  .top__wrapper-charset {
     display: flex;
     align-items: center;
     margin-left: 30px;
@@ -2273,14 +2255,14 @@ body {
   }
 
   .charset__item {
-   margin-right: 0px;
-    margin-left: 20;
+    margin-right: 0;
+    margin-left: 20px;
   }
 
   .charset__first {
     align-items: flex-end;
     width: 120px;
-    margin: 0px 2px 0px 0px;
+    margin: 0 2px 0 0;
   }
 
   .charset__speed {
@@ -2326,7 +2308,7 @@ body {
     padding-right: 7px;
     padding-left: 15px;
     padding-top: 13px;
-    background-position: 0px 12px;
+    background-position: 0 12px;
     background-size: 22px 22px;
   }
 
@@ -2355,8 +2337,8 @@ body {
 
 @media (max-width: 400px) {
   .header {
-    margin-top: 0px;
-    padding-top: 0px;
+    margin-top: 0;
+    padding-top: 0;
     padding-bottom: 27px;
   }
 
@@ -2385,11 +2367,11 @@ body {
   }
 
   .top {
-    padding: 30px 0px 20px;
-    margin-right: 0px;
+    padding: 30px 0 20px;
+    margin-right: 0;
     padding-top: 0;
     padding-bottom: 0;
-    background: url(../img/tesla-fon.png) ;
+    background: url(../img/tesla-fon.png);
     background-position: 0 80px;
     background-repeat: no-repeat;
     background-size: 410px 140px;
@@ -2401,7 +2383,7 @@ body {
     font-size: 50px;
     line-height: 61px;
     margin-top: 0;
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .top__subtitle {
@@ -2449,14 +2431,14 @@ body {
   }
 
   .charset__item {
-    margin-right: 0px;
-    margin-left: 20;
+    margin-right: 0;
+    margin-left: 20px;
   }
 
   .charset__first {
     align-items: flex-end;
     width: 120px;
-    margin: 0px 2px 0px 0px;
+    margin: 0 2px 0 0;
   }
 
   .charset__speed {
@@ -2501,7 +2483,7 @@ body {
     padding-right: 7px;
     padding-left: 15px;
     padding-top: 13px;
-    background-position: 0px 12px;
+    background-position: 0 12px;
     background-size: 22px 22px;
   }
 
@@ -2563,8 +2545,8 @@ body {
 
 @media (max-width: 375px) {
   .header {
-    margin-top: 0px;
-    padding-top: 0px;
+    margin-top: 0;
+    padding-top: 0;
     padding-bottom: 27px;
   }
 
@@ -2592,11 +2574,11 @@ body {
     height: 15px;
   }
   .top {
-    padding: 30px 0px 20px;
-    margin-right: 0px;
+    padding: 30px 0 20px;
+    margin-right: 0;
     padding-top: 0;
     padding-bottom: 0;
-    background: url(../img/tesla-fon.png) ;
+    background: url(../img/tesla-fon.png);
     background-position: -18px 80px;
     background-repeat: no-repeat;
     background-size: 425px 138px;
@@ -2608,7 +2590,7 @@ body {
     font-size: 50px;
     line-height: 61px;
     margin-top: 0;
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .top__subtitle {
@@ -2663,7 +2645,7 @@ body {
   .charset__first {
     align-items: flex-end;
     width: 120px;
-    margin: 0px 2px 0px 0px;
+    margin: 0 2px 0 0;
   }
 
   .charset__speed {
@@ -2776,7 +2758,7 @@ body {
 
   .middle__info-text {
     max-width: 300px;
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 27px;
     font-size: 15px;
     line-height: 18px;
@@ -2825,11 +2807,12 @@ body {
   .bottom__stars {
     display: none;
   }
-} 
+
+}
 
 @media (max-width: 373px) {
   .top {
-    background: url(../img/tesla-fon.png) ;
+    background: url(../img/tesla-fon.png);
     background-position: -18px 80px;
     background-repeat: no-repeat;
     background-size: 370px 120px;
@@ -2840,6 +2823,7 @@ body {
     background: url(../img/svg/road-mobile.svg) no-repeat;
     background-position: 150px 2px;
   }
+
   .charset {
     width: 120px;
   }
@@ -2891,7 +2875,7 @@ body {
     background-position: 0 50px;
 }
 
-.bottom__inner {
+  .bottom__inner {
     background: url(../img/car-mobile.png) no-repeat;
     background-position: 0 60px;
     background-size: 320px auto;
