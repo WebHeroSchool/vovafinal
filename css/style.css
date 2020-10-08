@@ -710,7 +710,7 @@ body {
     background-size: 900px 500px;
   }
 
-}
+
 
 @media (max-width: 1300px) {
   .container {
@@ -1561,7 +1561,7 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
   }
-    
+
   .bottom {
     background: url(../img/model-s-fon-ipad.png) no-repeat;
     background-position: 95px 68px;
