@@ -1494,7 +1494,7 @@ body {
     display: flex;
     flex-direction: row;
   }
-    
+
   .middle__info-title {
     margin-top: 57px;
     margin-left: 34px;
@@ -2585,6 +2585,7 @@ body {
     margin-left: 8px;
     margin-right: 0;
     margin-top: 22px;
+
   }
 
   .top__wrapper-charset {
@@ -2757,16 +2758,11 @@ body {
     width: 400px;
     height: 300px;
   }
-    
+
   .bottom__description {
     padding-top: 16px;
     padding-left: 31px;
     padding-right: 10px;
-  }
-
-  .bottom__description-title {
-    width: 320px;
-    margin-top: 2px;
   }
 
   .bottom__stars {
