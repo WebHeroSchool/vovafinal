@@ -1086,7 +1086,7 @@ body {
     max-width: 362px;
     height: 355px;
   }
-    
+
   .bottom__stars {
     width: 350px;
     height: 400px;
@@ -1363,8 +1363,8 @@ body {
   .top__wrapper-item {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 60px;
+    margin-top: 45px;
+    margin-bottom: 55px;
     margin-left: 15px;
     margin-right: 0;
   }
@@ -1571,7 +1571,7 @@ body {
   .bottom__inner {
     max-width: 768px;
     background: url(../img/car-ipad.png) no-repeat;
-    background-position: 0 73px;
+    background-position: 0 75px;
   }
 
   .bottom__inner-img {
@@ -1823,7 +1823,7 @@ body {
 
   .top__wrapper-item {
     margin-left: 0;
-    }
+  }
 
   .charset {
     margin-right: 0;
@@ -2807,7 +2807,7 @@ body {
   }
 
   .top__wrapper-charset {
-    margin-left: 10px;
+    margin-left: 0;
     background: url(../img/svg/road-mobile.svg) no-repeat;
     background-position: 150px 2px;
   }
@@ -2828,10 +2828,6 @@ body {
   .charset__first-small {
     margin-right: 0;
     padding-right: 0;
-  }
-
-  .top__wrapper-charset {
-    margin-left: 0;
   }
 
   .top__wrapper-item {
@@ -2882,6 +2878,7 @@ body {
     padding-left: 0;
     padding-right: 0;
   }
+
   .bottom__description-text {
     width: 320px;
   }
