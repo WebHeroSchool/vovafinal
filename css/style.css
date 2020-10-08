@@ -85,7 +85,7 @@ body {
 }
 
 .menu {
-  margin-left: 73px;
+  margin-left: 75px;
 }
 
 .menu__link {
@@ -507,6 +507,10 @@ body {
   line-height: 15px;
   padding-left: 20px;
 }
+.middle__btn {
+  margin-top: 95px;
+  margin-left: 13px;
+}
 
 .button__btn {
   display: flex;
@@ -519,7 +523,7 @@ body {
   margin-bottom: 0;
   background-color: #e51937;
   margin-top: 53px;
-  margin-left: 13px;
+  margin-left: 0;
 }
 
 .button__btn-img {
